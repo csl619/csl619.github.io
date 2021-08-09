@@ -1,0 +1,130 @@
+/*------------------------------------------------------------------
+Project:  Chris Lowe - Github
+Version: 1
+Last change: 05/08/2021
+Assigned to:  C Lowe
+-------------------------------------------------------------------*/
+
+/*------------------------------------------------------------------
+COLOUR PALET
+Version: 1
+Last change: 05/08/2021
+Main: #3D5D5F
+Light: #ebeeef
+White: f0f5f4
+-------------------------------------------------------------------*/
+
+/*//////////////////////////////////////////////////////////////////
+[ FONT ]*/
+
+@font-face {
+  font-family: Arista-Pro-Alternate-ExtraLight;
+  src: url('../fonts/SixOneNine/Arista-Pro-Alternate-ExtraLight.ttf');
+}
+@font-face {
+  font-family: Arista-Pro-Alternate-Regular;
+  src: url('../fonts/SixOneNine/Arista-Pro-Alternate-Regular.ttf');
+}
+/*==================================================================
+    TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT TEXT
+==================================================================*/
+body {
+  font-family: 'Lato', sans-serif;
+  font-weight: 300;
+}
+
+a {
+  color: lightgrey;
+}
+a:hover, a:active {
+  color: darkgrey;
+  text-decoration: none;
+}
+.card-header-text {
+  margin-bottom: 0px;
+}
+/*==================================================================
+   AREAS
+==================================================================*/
+#header-area {
+  background-image: url("../images/glass.jpg");
+  height: 25vh;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+  border-bottom: 1px solid #f0f5f4;
+}
+#side-bar {
+  background-color: #3D5D5F;
+}
+footer {
+  background-color: #B1BEBF;
+}
+#main-area {
+  background-color: #ebeeef;
+}
+#profile-area {
+  position:relative;
+}
+#profile-image {
+  position: absolute;
+  max-width: 50vw;
+  max-height: 50vw;
+  width: 200px;
+  height: 200px;
+  border: 1px solid #f0f5f4;
+  border-radius: 25px;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  z-index: 999;
+}
+#profile-text {
+  margin-top: 125px;
+  text-align: center;
+}
+.card, .card-body {
+  height: 100%;
+}
+.card-header {
+  background-color: #3D5D5F;
+  color: #f0f5f4;
+}
+.green-btn:hover {
+  background-color: #3D5D5F;
+  color: #f0f5f4;
+}
+.green-btn {
+  color: #3D5D5F;
+  border: 1px solid #3D5D5F;
+  background-color: #f0f5f4;
+}
+/*==================================================================
+  RESPONSIVE RESPONSIVE RESPONSIVE RESPONSIVE RESPONSIVE RESPONSIVE
+==================================================================*/
+
+/* Small devices (landscape phones, 576px and up) */
+@media (min-width: 576px) and (max-width: 767.98px) {
+
+}
+
+/* // Medium devices (tablets, 768px and up) */
+@media (min-width: 768px) {
+  #side-bar, #main-area {
+    min-height: 67vh;
+    border-right: 1px solid #f0f5f4
+  }
+  #header-area {
+    height: 33vh;
+  }
+}
+
+/* // Large devices (desktops, 992px and up) */
+@media (min-width: 992px){
+
+}
+
+/* // Extra large devices (large desktops, 1200px and up) */
+@media (min-width: 1200px) {
+
+}
