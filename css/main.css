@@ -13,7 +13,7 @@ Main: #3D5D5F
 Light: #ebeeef
 White: f0f5f4
 -------------------------------------------------------------------*/
-webkit-appearance: none;
+
 /*//////////////////////////////////////////////////////////////////
 [ FONT ]*/
 
@@ -34,6 +34,7 @@ body {
 }
 
 a {
+  -webkit-appearance: none;
   color: lightgrey;
 }
 a:hover, a:active {
